@@ -44,7 +44,5 @@
   // Use 'postCreateCommand' to run commands after the container is created.
   // "postCreateCommand": ""
   // Use 'postAttachCommand' to attach a command after the container is opened.
-  // "postAttachCommand": "zsh",
-  //
-  "postStartCommand": "git remote remove upstream || true"
+  "postAttachCommand": "git remote remove upstream || true"
 }
